@@ -1,0 +1,59 @@
+/* html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+}
+
+h1.title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 67px;
+
+}
+
+.level-left .level-item {
+    border-left: solid 1px #eee;
+}
+
+.level-right .level-item {
+
+    border-right: solid 1px #eee;
+}
+
+li {
+    display: inline-block;
+}
+
+.bgimage {
+    background-color: gray;
+    background-image: url(https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/banner.jpg) !important;
+    background-size: contain;
+}
+
+.has-text-centered {
+    margin-top: -250px;
+}
+
+.single-welcome-hero-form {
+    background-color: white;
+}
+
+
+
+.btn-search {
+    margin-top: 1px;
+}
+
+
+
+.card {
+    border-radius: 10px;
+}
+
+.label {
+    background-color: white !important;
+} */
+.my-7 {
+    margin-top: 100px;
+}
