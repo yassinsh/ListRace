@@ -57,3 +57,10 @@ li {
 .my-7 {
     margin-top: 100px;
 }
+
+.bgimage {
+    background-color: gray;
+    background-image: url(https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/banner.jpg) !important;
+    background-size: contain;
+    opacity: 0.7;
+}
