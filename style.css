@@ -67,6 +67,11 @@ body {
     margin-bottom: 200px;
 }
 
+.mt-7 {
+    margin-top: 100px;
+
+}
+
 .is-link {
     background-color: hsl(348, 100%, 61%) !important;
 
@@ -74,6 +79,11 @@ body {
 
 .is-link:hover {
     background-color: hsl(348, 86%, 43%) !important;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
 }
 
 .bgimage {
@@ -90,7 +100,6 @@ h1.title {
     font-weight: 700;
     font-size: 48px;
     line-height: 67px;
-
 }
 
 .cards {
@@ -114,13 +123,20 @@ h1.title {
     border-radius: 50%;
 }
 
-.card:hover .icon-how-work {
-    background-color: #fff;
+#how-work .container .card:hover .icon-how-work {
+    background-color: #fff !important;
+
+
 }
 
-.card:hover .icon-how-work p {
-    color: red;
+#how-work .container .card:hover .icon-how-work p {
+    color: hsl(348, 86%, 43%) !important;
+
 }
+
+/* #how-work .card:hover .icon-how-work p {
+    color: red;
+} */
 
 .explore-price-box {
     border-left: solid 1px #eee;
