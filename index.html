@@ -18,10 +18,10 @@
     <!-- Main container -->
     <nav class="navbar level  is-light">
         <!-- Left side -->
-        <div class="level-left mt-3">
+        <div class="level-left ">
 
             <div class="level-item pl-5">
-                <div class="navbar-item has-dropdown ">
+                <div class="navbar-item has-dropdown is-hoverable">
                     <a class="navbar-link" href="https://bulma.io/documentation/overview/start/">
                         languge
                     </a>
@@ -82,7 +82,7 @@
         <div class="navbar-start  my-4">
             <a href="#" class="mg-medium is-size-4 px-6">List<span class=" has-text-danger">Race</span></a>
         </div>
-        <div class=" my-4">
+        <div class="navbar-end my-4">
             <a role="button" class="navbar-burger mg-medium px-6 " data-target="navMenu" aria-label="menu"
                 aria-expanded="false">
                 <span aria-hidden="true"></span>
@@ -120,20 +120,20 @@
 
     </nav>
     </div>
-    <div class="hero bgimage my-6  is-fullheight">
+    <div class="hero bgimage my-6 has-background-black is-fullheight">
         <div class="hero-body ">
             <div class="container  has-text-centered">
                 <h1 class="title  has-text-white">
                     BEST PLACE TO FIND AND EXPLORE
                     THAT ALL YOU NEED </h1>
-                <p class="subtitle has-text-white pb-6 mb-6">
+                <p class="subtitle has-text-black pb-6 mb-6">
                     Find Best Place, Restaurant, Hotel, Real State and many more think in just One click
                 </p>
                 <div class="single-welcome-hero-form is-centered mt-6 columns is-10 ">
                     <div
                         class="container column is-11  has-background-white  is-flex is-align-items-center is-justify-content-space-evenly ">
                         <p class="subtitle  label is-6 has-text-black ">what?</p>
-                        <form action="#" method="post" class="control  has-icons-right">
+                        <form action="#" method="post" class="control has-icons-right">
                             <input type="text" class="input is-large"
                                 placeholder="Ex: palce, resturent, food, automobile">
                             <span class="welcome-hero-form-icon icon is-medium is-right"><img width="30" height="30"
@@ -143,7 +143,7 @@
                         </form>
                         <h3 class="subtitle label is-6  has-text-black">Location</h3>
                         <form action="#" method="post" class="control  has-icons-right">
-                            <input type="text" class="input is-large" placeholder="Ex: london,barclona,milan">
+                            <input type="text" class="input  is-large" placeholder="Ex: london,barclona,milan">
                             <iconify-icon icon="bx:current-location"
                                 class="welcome-hero-form-icon icon is-medium has-text-dark is-right" height="30"
                                 width="30"></iconify-icon>
@@ -212,214 +212,201 @@
                 </div>
             </nav>
         </div>
-        <!-- <section class="cards m-5  my-7 mx-5 has-text-centered ">
-            <div class="container columns py-6 is-centered">
-                <div class="card is-shadow mx-4  py-6 column is-2 has-text-centered ">
-                    <p class="subtitle "> <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
-                            viewBox="0 0 24 24">
-                            <path fill="currentColor"
-                                d="M12 10h-2V3H8v7H6V3H4v8c0 1.654 1.346 3 3 3h1v7h2v-7h1c1.654 0 3-1.346 3-3V3h-2v7zm7-7h-1c-1.159 0-2 1.262-2 3v8h2v7h2V4a1 1 0 0 0-1-1z" />
-                        </svg></p>
-                    <h3 class="title is-4">resturants</h3>
-                    <p class="subtitle is-6">74 listings</p>
-                </div>
-                <div class="card has-shadow mx-4  py-6 column is-2 has-text-centered">
-                    <p class="subtitle "> <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
-                            viewBox="0 0 24 24">
-                            <path fill="currentColor" d="M15 2.013H9V9H2v6h7v6.987h6V15h7V9h-7z" />
-                        </svg></p>
-                    <h3 class="title is-4">healthcare</h3>
-                    <p class="subtitle is-6">65 listings</p>
-                </div>
-                <div class="card has-shadow mx-4  py-6 column is-2 has-text-centered">
-                    <p class="subtitle "> <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
-                            viewBox="0 0 24 24">
-                            <path fill="currentColor"
-                                d="M19 2H9c-1.103 0-2 .897-2 2v5.586l-4.707 4.707A1 1 0 0 0 3 16v5a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4c0-1.103-.897-2-2-2zm-8 18H5v-5.586l3-3l3 3V20zm8 0h-6v-4a.999.999 0 0 0 .707-1.707L9 9.586V4h10v16z" />
-                            <path fill="currentColor"
-                                d="M11 6h2v2h-2zm4 0h2v2h-2zm0 4.031h2V12h-2zM15 14h2v2h-2zm-8 1h2v2H7z" />
-                        </svg></p>
-                    <h3 class="title is-4">Hotels</h3>
-                    <p class="subtitle is-6">151 listings</p>
-                </div>
-                <div class="card has-shadow mx-4 mb-6 py-6 column is-2 has-text-centered">
-                    <p class="subtitle "> <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
-                            viewBox="0 0 24 24">
-                            <path fill="currentColor"
-                                d="m20.772 10.156l-1.368-4.105A2.995 2.995 0 0 0 16.559 4H7.441a2.995 2.995 0 0 0-2.845 2.051l-1.368 4.105A2.003 2.003 0 0 0 2 12v5c0 .753.423 1.402 1.039 1.743c-.013.066-.039.126-.039.195V21a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-2h12v2a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-2.062c0-.069-.026-.13-.039-.195A1.993 1.993 0 0 0 22 17v-5c0-.829-.508-1.541-1.228-1.844zM4 17v-5h16l.002 5H4zM7.441 6h9.117c.431 0 .813.274.949.684L18.613 10H5.387l1.105-3.316A1 1 0 0 1 7.441 6z" />
-                            <circle cx="6.5" cy="14.5" r="1.5" fill="currentColor" />
-                            <circle cx="17.5" cy="14.5" r="1.5" fill="currentColor" />
-                        </svg></p>
-                    <h3 class="title is-4">Automotion</h3>
-                    <p class="subtitle is-6">214 listings</p>
-                </div>
-            </div>
-        </section> -->
     </div>
     <section id="how-work" class="how-work my-7 mx-5 has-text-centered">
         <h3 class="title is-3 is-dark">HOW IT WORKS</h3>
         <p class="subtitle has-text-grey-light">Learn More about how our website works</p>
-        <div class="container columns is-centered mt-6">
-            <div class="card column mb-3 mx-4 is-3 is-shadow has-text-centered py-4">
-                <div class="icon icon-how-work is-large has-background-grey-lighter">
-                    <p class="has-text-black"> <iconify-icon icon="bx:bulb" class="icon is-medium is-dark"
-                            width="40"></iconify-icon></p>
+        <div class="container mx-auto is-centered  mt-6">
+            <div class="columns ">
+                <div class="column mb-3 is-shadow">
+
+                    <div class="card  has-text-centered px-2 py-4">
+                        <div class="icon icon-how-work is-large has-background-grey-lighter">
+                            <p class="has-text-black"> <iconify-icon icon="bx:bulb" class="icon is-medium is-dark"
+                                    width="40"></iconify-icon></p>
+                        </div>
+                        <h4 class="title is-4 is-dark">Choose what to Do</h4>
+                        <p class="subtitle is-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, sint.
+                            Cumque
+                            numquam excepturi illo.
+                            Repellendus, laudantium beatae! Nesciunt, error quos.</p>
+                        <button class="button px-3 py-1 mt-3">Read More</button>
+                    </div>
                 </div>
-                <h4 class="title is-4 is-dark">Choose what to Do</h4>
-                <p class="subtitle is-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, sint. Cumque
-                    numquam excepturi illo.
-                    Repellendus, laudantium beatae! Nesciunt, error quos.</p>
-                <button class="button px-3 py-1 mt-3">Read More</button>
-            </div>
-            <div class="card column mb-3 mx-4 is-3 is-shadow has-text-centered py-4">
-                <div class="icon icon-how-work has-background-grey-lighter is-large">
-                    <p class="has-text-black"><ion-icon name="telescope-outline"
-                            class="icon is-medium is-dark"></ion-icon></p>
+
+                <div class="column mb-3  is-shadow">
+                    <div class="card px-2 has-text-centered py-4">
+                        <div class="icon icon-how-work has-background-grey-lighter is-large">
+                            <p class="has-text-black"><ion-icon name="telescope-outline"
+                                    class="icon is-medium is-dark"></ion-icon></p>
+                        </div>
+                        <h4 class="title is-4 is-dark">Find what you want</h4>
+                        <p class="subtitle is-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aperiam
+                            eum
+                            amet sunt dolores
+                            aspernatur
+                            adipisci reiciendis neque laboriosam quo.</p>
+                        <button class="button px-3 py-1 mt-3">Read More</button>
+
+                    </div>
                 </div>
-                <h4 class="title is-4 is-dark">Find what you want</h4>
-                <p class="subtitle is-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aperiam eum
-                    amet sunt dolores
-                    aspernatur
-                    adipisci reiciendis neque laboriosam quo.</p>
-                <button class="button px-3 py-1 mt-3">Read More</button>
-            </div>
-            <div class="card column mb-3 mx-4 is-3 is-shadow has-text-centered py-4">
-                <div class="icon icon-how-work is-rounded has-background-grey-lighter is-large">
-                    <p class="has-text-black"><iconify-icon icon="bx:location-plus" width="40"></iconify-icon></p>
+                <div class="column mb-3  is-shadow">
+                    <div class="card px-2 has-text-centered py-4">
+                        <div class="icon icon-how-work is-rounded has-background-grey-lighter is-large">
+                            <p class="has-text-black"><iconify-icon icon="bx:location-plus" width="40"></iconify-icon>
+                            </p>
+                        </div>
+                        <h4 class="title is-4 is-gray-dark">Explore amazing Place</h4>
+                        <p class="subtitle is-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id esse
+                            quos consequatur doloremque quas
+                            assumenda inventore quibusdam deserunt. Adipisci, provident.</p>
+                        <button class="button px-3 py-1 mt-3">Read More</button>
+
+                    </div>
                 </div>
-                <h4 class="title is-4 is-gray-dark">Explore amazing Place</h4>
-                <p class="subtitle is-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id esse
-                    quos consequatur doloremque quas
-                    assumenda inventore quibusdam deserunt. Adipisci, provident.</p>
-                <button class="button px-3 py-1 mt-3">Read More</button>
             </div>
         </div>
     </section>
-    <section id="explore" class="explore my-7 has-background-grey-lighter px-6 has-text-centered">
+    <section id="explore" class="explore my-7 has-background-grey-lighter has-text-centered">
         <h3 class="title is-3 pt-6 is-dark">EXPLORE</h3>
         <p class="subtitle has-text-grey-light">Explore New place, food, culture around the world and many more</p>
-        <div class="container pb-6 columns mx-5 mt-6 is-centered">
-            <div class="card column is-4 m-5 is-shadow">
-                <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/e3.jpg"
-                    alt="" class="card-header ">
-                <div class="title is-5 my-2">Europe Tour </div>
-                <div class="price py-1">
-                    <p class="explore-rating-price 	">
-                        <span class="explore-rating p-1 mx-2 has-background-success">4.5</span>
-                        <a href="https://www.free-css.com/free-css-templates">8 ratings</a>
-                        <span class="explore-price-box px-2">form <span
-                                class="explore-price has-text-danger-dark">50$-500$</span></span>
-                        <a href="https://www.free-css.com/free-css-templates">hotel</a>
-                    </p>
-                </div>
-                <div class="discripe px-3 columns">
-                    <figure>
-                        <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/person.png"
-                            class="img is-rounded column my-3" alt="" srcset="">
-                    </figure>
-                    <p class="px-3 column">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum officiis
-                        eaque
-                        nam iste dicta rerum necessitatibus! Praesentium adipisci illo saepe.</p>
-                </div>
-                <hr>
-                <div class="level">
-                    <div class="level-left">
-                        <div class="level-item">
-                            <a class="subtitle has-text-danger is-6">
-                                close now
-                            </a>
+        <div class="container pb-6  mt-6 is-centered ">
+            <div class="columns mx-auto">
+                <div class="column">
+                    <div class="card m-5 p-3 is-shadow">
+                        <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/e3.jpg"
+                            alt="" class="card-header  ">
+                        <div class="title is-5 my-2">Europe Tour </div>
+                        <div class="price py-1">
+                            <p class="explore-rating-price 	">
+                                <span class="explore-rating p-1 mx-2 has-background-success">4.5</span>
+                                <a href="https://www.free-css.com/free-css-templates">8 ratings</a>
+                                <span class="explore-price-box px-2">form <span
+                                        class="explore-price has-text-danger-dark">50$-500$</span></span>
+                                <a href="https://www.free-css.com/free-css-templates">hotel</a>
+                            </p>
+                        </div>
+                        <div class="discripe px-3 columns">
+                            <figure>
+                                <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/person.png"
+                                    class="img is-rounded column my-3" alt="" srcset="">
+                            </figure>
+                            <p class="px-3 column">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                                officiis
+                                eaque
+                                nam iste dicta rerum necessitatibus! Praesentium adipisci illo saepe.</p>
+                        </div>
+                        <hr>
+                        <div class="level">
+                            <div class="level-left">
+                                <div class="level-item">
+                                    <a class="subtitle has-text-danger is-6">
+                                        close now
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="level-right">
+                                <p class="level-item"><a href="#"><iconify-icon icon="bx:cloud-upload"
+                                            width="20"></iconify-icon></a></p>
+                                <p class="level-item"><a><iconify-icon icon="bx:location-plus"
+                                            width="20"></iconify-icon></a>
+                                </p>
+                                <p class="level-item"><a><ion-icon name="heart-outline"></ion-icon></a></p>
+                            </div>
                         </div>
                     </div>
-                    <div class="level-right">
-                        <p class="level-item"><a href="#"><iconify-icon icon="bx:cloud-upload"
-                                    width="20"></iconify-icon></a></p>
-                        <p class="level-item"><a><iconify-icon icon="bx:location-plus" width="20"></iconify-icon></a>
-                        </p>
-                        <p class="level-item"><a><ion-icon name="heart-outline"></ion-icon></a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="card column is-4 m-5 is-shadow">
-                <figure class="image">
 
-                    <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/e2.jpg"
-                        alt="" class="card-header">
-                </figure>
-                <div class="title is-5 my-2">Swim And Dine Resort</div>
-                <div class="price py-1">
-                    <p class="explore-rating-price ">
-                        <span class="explore-rating mx-2 has-background-warning	p-1">5.0</span>
-                        <a href="https://www.free-css.com/free-css-templates">15 ratings</a>
-                        <span class="explore-price-box px-2">form <span
-                                class="explore-price has-text-danger-dark">5k$-10k$</span></span>
-                        <a href="https://www.free-css.com/free-css-templates">destination</a>
-                    </p>
                 </div>
-                <div class="discripe px-3 columns">
-                    <figure>
-                        <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/person.png"
-                            class="img is-rounded column my-3" alt="" srcset="">
-                    </figure>
-                    <p class="px-3 column">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum officiis
-                        eaque
-                        nam iste dicta rerum necessitatibus! Praesentium adipisci illo saepe.</p>
-                </div>
-                <hr>
-                <div class="level">
-                    <div class="level-left">
-                        <div class="level-item">
-                            <a class="subtitle has-text-danger is-6">
-                                close now
-                            </a>
-                        </div>
-                    </div>
-                    <div class="level-right">
-                        <p class="level-item"><a href="#"><iconify-icon icon="bx:cloud-upload"
-                                    width="20"></iconify-icon></a></p>
-                        <p class="level-item"><a><iconify-icon icon="bx:location-plus" width="20"></iconify-icon></a>
-                        </p>
-                        <p class="level-item"><a><ion-icon name="heart-outline"></ion-icon></a></p>
-                    </div>
-                </div>
+                <div class="column">
+                    <div class="card p-3 m-5 is-shadow">
+                        <figure class="image">
 
-            </div>
-            <div class="card column is-4 m-5 is-shadow">
-                <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/e6.jpg"
-                    alt="" class="card-header">
-                <div class="title is-5 my-2">Thailand Tour</div>
-                <div class="price py-1">
-                    <p class="explore-rating-price "><span
-                            class="explore-rating mx-2 has-background-danger-dark	p-1">5.0</span>
-                        <a href="https://www.free-css.com/free-css-templates">15 ratings</a>
-                        <span class="explore-price-box px-2">form <span
-                                class="explore-price has-text-danger-dark	">5k$-10k$</span></span>
-                        <a href="https://www.free-css.com/free-css-templates">destination</a>
-                    </p>
-                </div>
-                <div class="discripe px-3 columns">
-                    <figure>
-                        <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/person.png"
-                            class="img is-rounded column my-3" alt="" srcset="">
-                    </figure>
-                    <p class="px-3 column">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum officiis
-                        eaque
-                        nam iste dicta rerum necessitatibus! Praesentium adipisci illo saepe.</p>
-                </div>
-                <hr>
-                <div class="level">
-                    <div class="level-left">
-                        <div class="level-item">
-                            <a class="subtitle has-text-primary is-6">
-                                open now
-                            </a>
+                            <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/e2.jpg"
+                                alt="" class="card-header">
+                        </figure>
+                        <div class="title is-5 my-2">Swim And Dine Resort</div>
+                        <div class="price py-1">
+                            <p class="explore-rating-price ">
+                                <span class="explore-rating mx-2 has-background-warning	p-1">5.0</span>
+                                <a href="https://www.free-css.com/free-css-templates">15 ratings</a>
+                                <span class="explore-price-box px-2">form <span
+                                        class="explore-price has-text-danger-dark">5k$-10k$</span></span>
+                                <a href="https://www.free-css.com/free-css-templates">destination</a>
+                            </p>
                         </div>
+                        <div class="discripe px-3 columns">
+                            <figure>
+                                <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/person.png"
+                                    class="img is-rounded column my-3" alt="" srcset="">
+                            </figure>
+                            <p class="px-3 column">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                                officiis
+                                eaque
+                                nam iste dicta rerum necessitatibus! Praesentium adipisci illo saepe.</p>
+                        </div>
+                        <hr>
+                        <div class="level">
+                            <div class="level-left">
+                                <div class="level-item">
+                                    <a class="subtitle has-text-danger is-6">
+                                        close now
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="level-right">
+                                <p class="level-item"><a href="#"><iconify-icon icon="bx:cloud-upload"
+                                            width="20"></iconify-icon></a></p>
+                                <p class="level-item"><a><iconify-icon icon="bx:location-plus"
+                                            width="20"></iconify-icon></a>
+                                </p>
+                                <p class="level-item"><a><ion-icon name="heart-outline"></ion-icon></a></p>
+                            </div>
+                        </div>
+
                     </div>
-                    <div class="level-right">
-                        <p class="level-item"> <a href="#"> <iconify-icon icon="bx:cloud-upload"
-                                    width="20"></iconify-icon></a></p>
-                        <p class="level-item"><a><iconify-icon icon="bx:location-plus" width="20"></iconify-icon></a>
-                        </p>
-                        <p class="level-item"><a><ion-icon name="heart-outline"></ion-icon></a></p>
+                </div>
+                <div class="column">
+                    <div class="card m-5 p-3 is-shadow">
+                        <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/e6.jpg"
+                            alt="" class="card-header">
+                        <div class="title is-5 my-2">Thailand Tour</div>
+                        <div class="price py-1">
+                            <p class="explore-rating-price "><span
+                                    class="explore-rating mx-2 has-background-danger-dark	p-1">5.0</span>
+                                <a href="https://www.free-css.com/free-css-templates">15 ratings</a>
+                                <span class="explore-price-box px-2">form <span
+                                        class="explore-price has-text-danger-dark	">5k$-10k$</span></span>
+                                <a href="https://www.free-css.com/free-css-templates">destination</a>
+                            </p>
+                        </div>
+                        <div class="discripe px-3 columns">
+                            <figure>
+                                <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/person.png"
+                                    class="img is-rounded column my-3" alt="" srcset="">
+                            </figure>
+                            <p class="px-3 column">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                                officiis
+                                eaque
+                                nam iste dicta rerum necessitatibus! Praesentium adipisci illo saepe.</p>
+                        </div>
+                        <hr>
+                        <div class="level">
+                            <div class="level-left">
+                                <div class="level-item">
+                                    <a class="subtitle has-text-primary is-6">
+                                        open now
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="level-right">
+                                <p class="level-item"> <a href="#"> <iconify-icon icon="bx:cloud-upload"
+                                            width="20"></iconify-icon></a></p>
+                                <p class="level-item"><a><iconify-icon icon="bx:location-plus"
+                                            width="20"></iconify-icon></a>
+                                </p>
+                                <p class="level-item"><a><ion-icon name="heart-outline"></ion-icon></a></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -428,167 +415,390 @@
     <section id="client" class="CLIENTS my-7 has-text-centered">
         <h3 class="title is-3 is-dark">CLIENTS REVIEWS</h3>
         <p class="subtitle has-text-grey-light">What our client say about us</p>
-        <div class="countainer is-mobile columns mt-6 is-centered">
-            <div class="card client column is-3 p-5 m-5 is-shadow">
-                <div class="header is-flex is-justify-content-space-evenly mt-5">
-                    <figure class="image is-64x64">
-                        <img class="is-rounded"
-                            src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c3.png"
-                            width="70" height="70" alt="">
-                    </figure>
-                    <div class="is-right">
-                        <p class="has-text-gray">Irma Walters</p>
-                        <p class="has-text-grey-light">london,uk</p>
-                        <p>
-                            <i class="fa fa-star has-text-warning"></i>
-                            <i class="fa fa-star has-text-warning"></i>
-                            <i class="fa fa-star has-text-warning"></i>
-                            <i class="fa fa-star has-text-warning"></i>
-                            <i class="fa fa-star has-text-warning"></i>
-                        </p>
+        <!-- <div class="countainer mt-6 is-centered">
+            <div class="columns is-mobile">
+                <div class="column">
+                    <div class="card client p-5 m-5 is-shadow">
+                        <div class="header is-flex is-justify-content-space-evenly mt-5">
+                            <figure class="image is-64x64">
+                                <img class="is-rounded"
+                                    src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c3.png"
+                                    width="70" height="70" alt="">
+                            </figure>
+                            <div class="is-right">
+                                <p class="has-text-gray">Irma Walters</p>
+                                <p class="has-text-grey-light">london,uk</p>
+                                <p>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <p class="subtitle is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia
+                            deserunt
+                            mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
                     </div>
                 </div>
-                <p class="subtitle is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt
-                    mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
-            </div>
-            <div class="card client column is-3 p-3 m-5 is-shadow">
-                <div class="header is-flex is-justify-content-space-evenly mt-5">
-                    <figure class="image is-64x64">
-                        <img class="is-rounded"
-                            src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c4.png"
-                            width="70" height="70" alt="">
-                    </figure>
-                    <div class="is-right">
-                        <p class="has-text-gray">tom leash</p>
-                        <p class="has-text-grey-light">madrid.espain</p>
-                        <p>
-                            <i class="fa fa-star has-text-warning"></i>
-                            <i class="fa fa-star has-text-warning"></i>
-                            <i class="fa fa-star has-text-warning"></i>
-                            <i class="fa fa-star has-text-warning"></i>
-                            <i class="fa fa-star has-text-warning"></i>
-                        </p>
+                <div class="column">
+                    <div class="card client p-3 m-5 is-shadow">
+                        <div class="header is-flex is-justify-content-space-evenly mt-5">
+                            <figure class="image is-64x64">
+                                <img class="is-rounded"
+                                    src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c4.png"
+                                    width="70" height="70" alt="">
+                            </figure>
+                            <div class="is-right">
+                                <p class="has-text-gray">tom leash</p>
+                                <p class="has-text-grey-light">madrid.espain</p>
+                                <p>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <p class="subtitle is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia
+                            deserunt
+                            mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
                     </div>
                 </div>
-                <p class="subtitle is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt
-                    mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
-            </div>
-            <div class="card client column is-3 p-3 m-5 is-shadow">
-                <div class="header is-flex is-justify-content-space-evenly mt-5">
-                    <figure class="image is-64x64">
-                        <img class="is-rounded"
-                            src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c2.png"
-                            width="70" height="70" alt="">
-                    </figure>
-                    <div class="is-right">
-                        <p class="has-text-gray">islam hossin</p>
-                        <p class="has-text-grey-light">cairo,Egypt</p>
-                        <p>
-                            <i class="fa fa-star has-text-warning"></i>
-                            <i class="fa fa-star has-text-warning"></i>
-                            <i class="fa fa-star has-text-warning"></i>
-                            <i class="fa fa-star has-text-warning"></i>
-                            <i class="fa fa-star has-text-warning"></i>
-                        </p>
+                <div class="column">
+                    <div class="card client p-3 m-5 is-shadow">
+                        <div class="header is-flex is-justify-content-space-evenly mt-5">
+                            <figure class="image is-64x64">
+                                <img class="is-rounded"
+                                    src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c2.png"
+                                    width="70" height="70" alt="">
+                            </figure>
+                            <div class="is-right">
+                                <p class="has-text-gray">islam hossin</p>
+                                <p class="has-text-grey-light">cairo,Egypt</p>
+                                <p>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <p class="subtitle mt-2 is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                            qui officia
+                            deserunt
+                            mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
                     </div>
                 </div>
-                <p class="subtitle mt-2 is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt
-                    mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
-            </div>
-            <div class="card client column is-3 p-3 m-5 is-shadow">
-                <div class="header is-flex is-justify-content-space-evenly mt-5">
-                    <figure class="image is-64x64">
-                        <img class="is-rounded"
-                            src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c3.png"
-                            width="70" height="70" alt="">
-                    </figure>
-                    <div class="is-right">
-                        <p class="has-text-gray">john load</p>
-                        <p class="has-text-grey-light">damascus,syria</p>
-                        <p>
-                            <i class="fa fa-star has-text-warning"></i>
-                            <i class="fa fa-star has-text-warning"></i>
-                            <i class="fa fa-star has-text-warning"></i>
-                            <i class="fa fa-star has-text-warning"></i>
-                            <i class="fa fa-star has-text-warning"></i>
-                        </p>
+                <div class="column">
+                    <div class="card client p-3 m-5 is-shadow">
+                        <div class="header is-flex is-justify-content-space-evenly mt-5">
+                            <figure class="image is-64x64">
+                                <img class="is-rounded"
+                                    src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c3.png"
+                                    width="70" height="70" alt="">
+                            </figure>
+                            <div class="is-right">
+                                <p class="has-text-gray">john load</p>
+                                <p class="has-text-grey-light">damascus,syria</p>
+                                <p>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <p class="subtitle mt-2 is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                            qui officia
+                            deserunt
+                            mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
                     </div>
                 </div>
-                <p class="subtitle mt-2 is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt
-                    mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
-            </div>
-            <div class="card client column is-3 p-3 m-5 is-shadow">
-                <div class="header is-flex is-justify-content-space-evenly mt-5">
-                    <figure class="image is-64x64">
-                        <img class="is-rounded"
-                            src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c1.png"
-                            width="70" height="70" alt="">
-                    </figure>
-                    <div class="is-right">
-                        <p class="has-text-gray">hamza stam</p>
-                        <p class="has-text-grey-light">damascus,syria</p>
-                        <p>
-                            <i class="fa fa-star has-text-warning"></i>
-                            <i class="fa fa-star has-text-warning"></i>
-                            <i class="fa fa-star has-text-warning"></i>
-                            <i class="fa fa-star has-text-warning"></i>
-                            <i class="fa fa-star has-text-warning"></i>
-                        </p>
+                <div class="column">
+                    <div class="card client p-3 m-5 is-shadow">
+                        <div class="header is-flex is-justify-content-space-evenly mt-5">
+                            <figure class="image is-64x64">
+                                <img class="is-rounded"
+                                    src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c1.png"
+                                    width="70" height="70" alt="">
+                            </figure>
+                            <div class="is-right">
+                                <p class="has-text-gray">hamza stam</p>
+                                <p class="has-text-grey-light">damascus,syria</p>
+                                <p>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <p class="subtitle mt-2 is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                            qui officia
+                            deserunt
+                            mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
                     </div>
                 </div>
-                <p class="subtitle mt-2 is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt
-                    mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
             </div>
+
+
+        </div> -->
+        <div class="container clientss mx-auto is-mobile">
+            <ul class="carousel columns mx-auto is-centered my-6 ">
+                <li class="itemsli main-pos is-2 carouselli" id="1">
+                    <div class="card client p-5 m-5 is-shadow">
+                        <div class="header is-flex is-justify-content-space-evenly mt-5">
+                            <figure class="image is-64x64">
+                                <img class="is-rounded"
+                                    src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c3.png"
+                                    width="70" height="70" alt="">
+                            </figure>
+                            <div class="is-right">
+                                <p class="has-text-gray">Irma Walters</p>
+                                <p class="has-text-grey-light">london,uk</p>
+                                <p>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <p class="subtitle is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia
+                            deserunt
+                            mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
+                    </div>
+                </li>
+                <li class="itemsli right-pos is-2 carouselli" id="2">
+                    <div class="card client p-3 m-5 is-shadow">
+                        <div class="header is-flex is-justify-content-space-evenly mt-5">
+                            <figure class="image is-64x64">
+                                <img class="is-rounded"
+                                    src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c4.png"
+                                    width="70" height="70" alt="">
+                            </figure>
+                            <div class="is-right">
+                                <p class="has-text-gray">tom leash</p>
+                                <p class="has-text-grey-light">madrid.espain</p>
+                                <p>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <p class="subtitle is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia
+                            deserunt
+                            mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
+                    </div>
+                </li>
+                <li class="itemsli back-pos is-2 carouselli" id="3">
+                    <div class="card client p-3 m-5 is-shadow">
+                        <div class="header is-flex is-justify-content-space-evenly mt-5">
+                            <figure class="image is-64x64">
+                                <img class="is-rounded"
+                                    src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c3.png"
+                                    width="70" height="70" alt="">
+                            </figure>
+                            <div class="is-right">
+                                <p class="has-text-gray">john load</p>
+                                <p class="has-text-grey-light">damascus,syria</p>
+                                <p>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <p class="subtitle mt-2 is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                            qui officia
+                            deserunt
+                            mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
+                    </div>
+                </li>
+                <li class="itemsli back-pos is-2 carouselli" id="4">
+                    <div class="card client p-3 m-5 is-shadow">
+                        <div class="header is-flex is-justify-content-space-evenly mt-5">
+                            <figure class="image is-64x64">
+                                <img class="is-rounded"
+                                    src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c1.png"
+                                    width="70" height="70" alt="">
+                            </figure>
+                            <div class="is-right">
+                                <p class="has-text-gray">hamza stam</p>
+                                <p class="has-text-grey-light">damascus,syria</p>
+                                <p>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <p class="subtitle mt-2 is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                            qui officia
+                            deserunt
+                            mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
+                    </div>
+                </li>
+                <li class="itemsli back-pos is-2 carouselli" id="5">
+                    <div class="card client p-5 m-5 is-shadow">
+                        <div class="header is-flex is-justify-content-space-evenly mt-5">
+                            <figure class="image is-64x64">
+                                <img class="is-rounded"
+                                    src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c3.png"
+                                    width="70" height="70" alt="">
+                            </figure>
+                            <div class="is-right">
+                                <p class="has-text-gray">Irma Walters</p>
+                                <p class="has-text-grey-light">london,uk</p>
+                                <p>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <p class="subtitle is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia
+                            deserunt
+                            mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
+                    </div>
+                </li>
+                <li class="itemsli back-pos is-2 carouselli" id="6">
+                    <div class="card client p-3 m-5 is-shadow">
+                        <div class="header is-flex is-justify-content-space-evenly mt-5">
+                            <figure class="image is-64x64">
+                                <img class="is-rounded"
+                                    src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c4.png"
+                                    width="70" height="70" alt="">
+                            </figure>
+                            <div class="is-right">
+                                <p class="has-text-gray">tom leash</p>
+                                <p class="has-text-grey-light">madrid.espain</p>
+                                <p>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <p class="subtitle is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia
+                            deserunt
+                            mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
+                    </div>
+                </li>
+                <li class="itemsli left-pos is-2 carouselli" id="7">
+                    <div class="card client p-3 m-5 is-shadow">
+                        <div class="header is-flex is-justify-content-space-evenly mt-5">
+                            <figure class="image is-64x64">
+                                <img class="is-rounded"
+                                    src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c1.png"
+                                    width="70" height="70" alt="">
+                            </figure>
+                            <div class="is-right">
+                                <p class="has-text-gray">hamza stam</p>
+                                <p class="has-text-grey-light">damascus,syria</p>
+                                <p>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                    <i class="fa fa-star has-text-warning"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <p class="subtitle mt-2 is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                            qui officia
+                            deserunt
+                            mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+
         </div>
     </section>
     <section id="blog" class="blog my-7 has-text-centered">
         <h3 class="title is-3 is-dark">NEWS AND ARTICLES</h3>
         <p class="subtitle has-text-grey-light">Always upto date with our latest News and Articles</p>
-        <div class="container columns mt-6 is-centered">
-            <div class="card column is-3 px-3 m-5 is-shadow">
-                <figure><img
-                        src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/b1.jpg"
-                        alt="" class="header-img image"></figure>
-                <div class="title is-5">How to find your Desired Place more quickly</div>
-                <div class="info columns">
-                    <p class="column is-6 has-text-grey-light">Posted By <a href="#" class="is-6">ADMIN</a></p>
-                    <p class="column is-6 border-left px-2 has-text-grey-light"> March 2045</p>
+        <div class="container mt-6 is-centered">
+            <div class="columns mx-auto">
+                <div class="column ">
+                    <div class="card p-3 pb-2 m-5 is-shadow">
+                        <figure><img
+                                src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/b1.jpg"
+                                alt="" class="header-img image"></figure>
+                        <div class="title is-5">How to find your Desired Place more quickly</div>
+                        <div class="info columns">
+                            <p class="column is-6 has-text-grey-light">Posted By <a href="#" class="is-6">ADMIN</a></p>
+                            <p class="column is-6 border-left px-2 has-text-grey-light"> March 2045</p>
+                        </div>
+                        <p class="subtitle is-6">Lorem ipsum dolor sit amet, consectetur de adipisicing elit, sed do
+                            eiusmod
+                            tempore
+                            incididunt ut labore et dolore magna</p>
+                    </div>
                 </div>
-                <p class="subtitle is-6">Lorem ipsum dolor sit amet, consectetur de adipisicing elit, sed do eiusmod
-                    tempore
-                    incididunt ut labore et dolore magna</p>
-            </div>
-            <div class="card column is-3 px-3 m-5 is-shadow">
-                <figure><img
-                        src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/b2.jpg"
-                        alt="" class="header-img"></figure>
-                <div class="title is-5">How to find your Desired Place more quickly</div>
-                <div class="info columns">
-                    <p class="column is-6 has-text-grey-light">Posted By <a href="#" class="is-6">ADMIN</a></p>
-                    <p class="column is-6 border-left px-2 has-text-grey-light"> March 2045</p>
-                </div>
-                <p class="subtitle is-6">Lorem ipsum dolor sit amet, consectetur de adipisicing elit, sed do eiusmod
-                    tempore
-                    incididunt ut labore et dolore magna</p>
 
-            </div>
-            <div class="card column is-3 px-3 m-5 is-shadow">
-                <figure><img
-                        src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/b3.jpg"
-                        alt="" class="header-img"></figure>
-                <div class="title is-5">How to find your Desired Place more quickly</div>
-                <div class="info columns">
-                    <p class="column is-6 has-text-grey-light">Posted By <a href="#" class="is-6">ADMIN</a></p>
-                    <p class="column is-6 border-left px-2 has-text-grey-light"> March 2045</p>
+                <div class="column">
+                    <div class="card p-3 pb-2 m-5 is-shadow">
+                        <figure><img
+                                src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/b2.jpg"
+                                alt="" class="header-img"></figure>
+                        <div class="title is-5">How to find your Desired Place more quickly</div>
+                        <div class="info columns">
+                            <p class="column is-6 has-text-grey-light">Posted By <a href="#" class="is-6">ADMIN</a></p>
+                            <p class="column is-6 border-left px-2 has-text-grey-light"> March 2045</p>
+                        </div>
+                        <p class="subtitle is-6">Lorem ipsum dolor sit amet, consectetur de adipisicing elit, sed do
+                            eiusmod
+                            tempore
+                            incididunt ut labore et dolore magna</p>
+
+                    </div>
                 </div>
-                <p class="subtitle is-6">Lorem ipsum dolor sit amet, consectetur de adipisicing elit, sed do eiusmod
-                    tempore
-                    incididunt ut labore et dolore magna</p>
+                <div class="column">
+                    <div class="card p-3 pb-2 m-5 is-shadow">
+                        <figure><img
+                                src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/b3.jpg"
+                                alt="" class="header-img"></figure>
+                        <div class="title is-5">How to find your Desired Place more quickly</div>
+                        <div class="info columns">
+                            <p class="column is-6 has-text-grey-light">Posted By <a href="#" class="is-6">ADMIN</a></p>
+                            <p class="column is-6 border-left px-2 has-text-grey-light"> March 2045</p>
+                        </div>
+                        <p class="subtitle is-6">Lorem ipsum dolor sit amet, consectetur de adipisicing elit, sed do
+                            eiusmod
+                            tempore
+                            incididunt ut labore et dolore magna</p>
+
+                    </div>
+                </div>
+
 
             </div>
         </div>
@@ -598,9 +808,11 @@
         <p class="subtitle has-text-grey-light">Listrace offer you to list your business with us and we very much able
             to promote your Business</p>
         <div class="container pb-6 columns  mt-6 is-centered is-shadow">
-            <input type="email" class="input is-3 px-6 my-2 is-large" placeholder="enter your email"><button
-                class="button is-large p-1 my-2 is-link">creat
-                Account</button>
+            <form action="" class="form">
+                <input type="email" class="input input-clear is-3 px-6 my-2 is-large"
+                    placeholder="enter your email"><button class="button  is-large p-1 my-2 is-link">creat
+                    Account</button>
+            </form>
         </div>
     </section>
     <div class="navbar-menu-bottom columns has-shadow ">
@@ -663,29 +875,13 @@
         <i class="fa fa-angle-up" id="scroll-top" data-toggle="tooltip" data-placement="top"
             data-original-title="Back to Top" aria-hidden="true"></i>
     </a>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-            // Get all "navbar-burger" elements
-            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+    <script src="main.js">
 
-            // Add a click event on each of them
-            $navbarBurgers.forEach(el => {
-                el.addEventListener('click', () => {
-
-                    // Get the target from the "data-target" attribute
-                    const target = el.dataset.target;
-                    const $target = document.getElementById(target);
-
-                    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-                    el.classList.toggle('is-active');
-                    $target.classList.toggle('is-active');
-
-                });
-            });
-
-        });
     </script>
+
+
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
