@@ -86,6 +86,11 @@ html {
 
 }
 
+.navbar-start,
+.navbar-end {
+    display: inline-block;
+}
+
 .navbar-item {
     position: relative;
     top: 5px;
@@ -169,70 +174,26 @@ h1.title {
 
 
 
+.swiper {
+    /* width: 800px; */
+    height: 300px;
+}
+
+.swiper-slide {
+    border-radius: 5px;
+    transition: .5s linear;
+}
+
+:root {
+    --swiper-theme-color: #f14668;
+}
+
 /* .countainer .client {
     transition: all 800ms linear 0s;
     transform: translate3d(-280px, 0px, 0px);
     animation: client linear(0 0%, 0 1.8%, 0.01 3.6%, 0.03 6.35%, 0.07 9.1%, 0.13 11.4%, 0.19 13.4%, 0.27 15%, 0.34 16.1%, 0.54 18.35%, 0.66 20.6%, 0.72 22.4%, 0.77 24.6%, 0.81 27.3%, 0.85 30.4%, 0.88 35.1%, 0.92 40.6%, 0.94 47.2%, 0.96 55%, 0.98 64%, 0.99 74.4%, 1 86.4%, 1 100%) 6s infinite
 } */
-.clientss {
-    width: 40em;
-    height: 15em;
-    margin: 0 auto;
-    position: relative;
-}
 
-.carouselli {
-    width: 500px;
-    height: 281px;
-    display: inline-block;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-    overflow: hidden;
-}
-
-
-.itemsli {
-    position: absolute;
-}
-
-.main-pos {
-    margin-left: 2em !important;
-    z-index: 3000;
-}
-
-.left-pos {
-    opacity: .3;
-    margin-left: -17em !important;
-    z-index: 1000;
-    -webkit-transform: scale(.75);
-    -moz-transform: scale(.75);
-    transform: scale(.75);
-}
-
-.back-pos {
-    margin-left: 2em !important;
-    opacity: .05;
-    -webkit-transform: scale(.5);
-    -moz-transform: scale(.5);
-    transform: scale(.5);
-}
-
-.right-pos {
-    opacity: .3;
-    margin-left: 21em !important;
-    z-index: 1000;
-    -webkit-transform: scale(.75);
-    -moz-transform: scale(.75);
-    transform: scale(.75);
-}
-
-.spann {
-    position: relative;
-    margin: 0 auto;
-    left: 17em;
-    top: 20em;
-}
 
 /* @keyframes client {
 

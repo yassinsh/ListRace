@@ -11,13 +11,14 @@
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
 <body>
     <!-- Main container -->
-    <nav class="navbar level  is-light">
-        <!-- Left side -->
+    <!-- <nav class="navbar level  is-light">
         <div class="level-left ">
 
             <div class="level-item pl-5">
@@ -71,18 +72,17 @@
 
         </div>
 
-        <!-- Right side -->
         <div class="level-right mr-5">
             <p class="level-item is-small pr-5">+963931418211</p>
             <p class="level-item is-small pr-5"><a>sign up</a></p>
             <p class="level-item is-normal pr-5"><a>Register</a></p>
         </div>
-    </nav>
+    </nav> -->
     <nav class="navbar sticky navbar-menu is-active  has-shadow">
-        <div class="navbar-start  my-4">
+        <div class="navbar-start  my-auto">
             <a href="#" class="mg-medium is-size-4 px-6">List<span class=" has-text-danger">Race</span></a>
         </div>
-        <div class="navbar-end my-4">
+        <div class="navbar-end my-auto">
             <a role="button" class="navbar-burger mg-medium px-6 " data-target="navMenu" aria-label="menu"
                 aria-expanded="false">
                 <span aria-hidden="true"></span>
@@ -221,7 +221,7 @@
             <div class="columns ">
                 <div class="column mb-3 is-shadow">
 
-                    <div class="card  has-text-centered px-2 py-4">
+                    <div data-aos="fade-right" data-aos-duration="2000" class="card  has-text-centered px-2 py-4">
                         <div class="icon icon-how-work is-large has-background-grey-lighter">
                             <p class="has-text-black"> <iconify-icon icon="bx:bulb" class="icon is-medium is-dark"
                                     width="40"></iconify-icon></p>
@@ -236,7 +236,7 @@
                 </div>
 
                 <div class="column mb-3  is-shadow">
-                    <div class="card px-2 has-text-centered py-4">
+                    <div data-aos="zoom-in" data-aos-duration="2000" class="card px-2 has-text-centered py-4">
                         <div class="icon icon-how-work has-background-grey-lighter is-large">
                             <p class="has-text-black"><ion-icon name="telescope-outline"
                                     class="icon is-medium is-dark"></ion-icon></p>
@@ -252,7 +252,7 @@
                     </div>
                 </div>
                 <div class="column mb-3  is-shadow">
-                    <div class="card px-2 has-text-centered py-4">
+                    <div data-aos="fade-left" data-aos-duration="2000" class="card px-2 has-text-centered py-4">
                         <div class="icon icon-how-work is-rounded has-background-grey-lighter is-large">
                             <p class="has-text-black"><iconify-icon icon="bx:location-plus" width="40"></iconify-icon>
                             </p>
@@ -274,7 +274,7 @@
         <div class="container pb-6  mt-6 is-centered ">
             <div class="columns mx-auto">
                 <div class="column">
-                    <div class="card m-5 p-3 is-shadow">
+                    <div data-aos="flip-left" data-aos-duration="2000" class="card m-5 p-3 is-shadow">
                         <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/e3.jpg"
                             alt="" class="card-header  ">
                         <div class="title is-5 my-2">Europe Tour </div>
@@ -307,7 +307,7 @@
                                 </div>
                             </div>
                             <div class="level-right">
-                                <p class="level-item"><a href="#"><iconify-icon icon="bx:cloud-upload"
+                                <p class="level-item"><a><iconify-icon icon="bx:cloud-upload"
                                             width="20"></iconify-icon></a></p>
                                 <p class="level-item"><a><iconify-icon icon="bx:location-plus"
                                             width="20"></iconify-icon></a>
@@ -319,7 +319,7 @@
 
                 </div>
                 <div class="column">
-                    <div class="card p-3 m-5 is-shadow">
+                    <div data-aos="zoom-in" data-aos-duration="2000" class="card p-3 m-5 is-shadow">
                         <figure class="image">
 
                             <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/e2.jpg"
@@ -367,7 +367,7 @@
                     </div>
                 </div>
                 <div class="column">
-                    <div class="card m-5 p-3 is-shadow">
+                    <div data-aos="flip-right" data-aos-duration="2000" class="card m-5 p-3 is-shadow">
                         <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/e6.jpg"
                             alt="" class="card-header">
                         <div class="title is-5 my-2">Thailand Tour</div>
@@ -416,331 +416,206 @@
     <section id="client" class="CLIENTS my-7 has-text-centered">
         <h3 class="title is-3 is-dark">CLIENTS REVIEWS</h3>
         <p class="subtitle has-text-grey-light">What our client say about us</p>
-        <!-- <div class="countainer mt-6 is-centered">
-            <div class="columns is-mobile">
-                <div class="column">
-                    <div class="card client p-5 m-5 is-shadow">
-                        <div class="header is-flex is-justify-content-space-evenly mt-5">
-                            <figure class="image is-64x64">
-                                <img class="is-rounded"
-                                    src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c3.png"
-                                    width="70" height="70" alt="">
-                            </figure>
-                            <div class="is-right">
-                                <p class="has-text-gray">Irma Walters</p>
-                                <p class="has-text-grey-light">london,uk</p>
-                                <p>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                </p>
-                            </div>
-                        </div>
-                        <p class="subtitle is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                            officia
-                            deserunt
-                            mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="card client p-3 m-5 is-shadow">
-                        <div class="header is-flex is-justify-content-space-evenly mt-5">
-                            <figure class="image is-64x64">
-                                <img class="is-rounded"
-                                    src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c4.png"
-                                    width="70" height="70" alt="">
-                            </figure>
-                            <div class="is-right">
-                                <p class="has-text-gray">tom leash</p>
-                                <p class="has-text-grey-light">madrid.espain</p>
-                                <p>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                </p>
-                            </div>
-                        </div>
-                        <p class="subtitle is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                            officia
-                            deserunt
-                            mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="card client p-3 m-5 is-shadow">
-                        <div class="header is-flex is-justify-content-space-evenly mt-5">
-                            <figure class="image is-64x64">
-                                <img class="is-rounded"
-                                    src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c2.png"
-                                    width="70" height="70" alt="">
-                            </figure>
-                            <div class="is-right">
-                                <p class="has-text-gray">islam hossin</p>
-                                <p class="has-text-grey-light">cairo,Egypt</p>
-                                <p>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                </p>
-                            </div>
-                        </div>
-                        <p class="subtitle mt-2 is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                            qui officia
-                            deserunt
-                            mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="card client p-3 m-5 is-shadow">
-                        <div class="header is-flex is-justify-content-space-evenly mt-5">
-                            <figure class="image is-64x64">
-                                <img class="is-rounded"
-                                    src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c3.png"
-                                    width="70" height="70" alt="">
-                            </figure>
-                            <div class="is-right">
-                                <p class="has-text-gray">john load</p>
-                                <p class="has-text-grey-light">damascus,syria</p>
-                                <p>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                </p>
-                            </div>
-                        </div>
-                        <p class="subtitle mt-2 is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                            qui officia
-                            deserunt
-                            mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="card client p-3 m-5 is-shadow">
-                        <div class="header is-flex is-justify-content-space-evenly mt-5">
-                            <figure class="image is-64x64">
-                                <img class="is-rounded"
-                                    src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c1.png"
-                                    width="70" height="70" alt="">
-                            </figure>
-                            <div class="is-right">
-                                <p class="has-text-gray">hamza stam</p>
-                                <p class="has-text-grey-light">damascus,syria</p>
-                                <p>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                </p>
-                            </div>
-                        </div>
-                        <p class="subtitle mt-2 is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                            qui officia
-                            deserunt
-                            mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
-                    </div>
-                </div>
-            </div>
 
-
-        </div> -->
         <div class="container clientss mx-auto is-mobile">
-            <ul class="carousel columns mx-auto is-centered my-6 ">
-                <li class="itemsli main-pos is-2 carouselli" id="1">
-                    <div class="card client p-5 m-5 is-shadow">
-                        <div class="header is-flex is-justify-content-space-evenly mt-5">
-                            <figure class="image is-64x64">
-                                <img class="is-rounded"
-                                    src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c3.png"
-                                    width="70" height="70" alt="">
-                            </figure>
-                            <div class="is-right">
-                                <p class="has-text-gray">Irma Walters</p>
-                                <p class="has-text-grey-light">london,uk</p>
-                                <p>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                </p>
-                            </div>
-                        </div>
-                        <p class="subtitle is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                            officia
-                            deserunt
-                            mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
-                    </div>
-                </li>
-                <li class="itemsli right-pos is-2 carouselli" id="2">
-                    <div class="card client p-3 m-5 is-shadow">
-                        <div class="header is-flex is-justify-content-space-evenly mt-5">
-                            <figure class="image is-64x64">
-                                <img class="is-rounded"
-                                    src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c4.png"
-                                    width="70" height="70" alt="">
-                            </figure>
-                            <div class="is-right">
-                                <p class="has-text-gray">tom leash</p>
-                                <p class="has-text-grey-light">madrid.espain</p>
-                                <p>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                </p>
-                            </div>
-                        </div>
-                        <p class="subtitle is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                            officia
-                            deserunt
-                            mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
-                    </div>
-                </li>
-                <li class="itemsli back-pos is-2 carouselli" id="3">
-                    <div class="card client p-3 m-5 is-shadow">
-                        <div class="header is-flex is-justify-content-space-evenly mt-5">
-                            <figure class="image is-64x64">
-                                <img class="is-rounded"
-                                    src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c3.png"
-                                    width="70" height="70" alt="">
-                            </figure>
-                            <div class="is-right">
-                                <p class="has-text-gray">john load</p>
-                                <p class="has-text-grey-light">damascus,syria</p>
-                                <p>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                </p>
-                            </div>
-                        </div>
-                        <p class="subtitle mt-2 is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                            qui officia
-                            deserunt
-                            mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
-                    </div>
-                </li>
-                <li class="itemsli back-pos is-2 carouselli" id="4">
-                    <div class="card client p-3 m-5 is-shadow">
-                        <div class="header is-flex is-justify-content-space-evenly mt-5">
-                            <figure class="image is-64x64">
-                                <img class="is-rounded"
-                                    src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c1.png"
-                                    width="70" height="70" alt="">
-                            </figure>
-                            <div class="is-right">
-                                <p class="has-text-gray">hamza stam</p>
-                                <p class="has-text-grey-light">damascus,syria</p>
-                                <p>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                </p>
-                            </div>
-                        </div>
-                        <p class="subtitle mt-2 is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                            qui officia
-                            deserunt
-                            mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
-                    </div>
-                </li>
-                <li class="itemsli back-pos is-2 carouselli" id="5">
-                    <div class="card client p-5 m-5 is-shadow">
-                        <div class="header is-flex is-justify-content-space-evenly mt-5">
-                            <figure class="image is-64x64">
-                                <img class="is-rounded"
-                                    src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c3.png"
-                                    width="70" height="70" alt="">
-                            </figure>
-                            <div class="is-right">
-                                <p class="has-text-gray">Irma Walters</p>
-                                <p class="has-text-grey-light">london,uk</p>
-                                <p>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                </p>
-                            </div>
-                        </div>
-                        <p class="subtitle is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                            officia
-                            deserunt
-                            mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
-                    </div>
-                </li>
-                <li class="itemsli back-pos is-2 carouselli" id="6">
-                    <div class="card client p-3 m-5 is-shadow">
-                        <div class="header is-flex is-justify-content-space-evenly mt-5">
-                            <figure class="image is-64x64">
-                                <img class="is-rounded"
-                                    src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c4.png"
-                                    width="70" height="70" alt="">
-                            </figure>
-                            <div class="is-right">
-                                <p class="has-text-gray">tom leash</p>
-                                <p class="has-text-grey-light">madrid.espain</p>
-                                <p>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                </p>
-                            </div>
-                        </div>
-                        <p class="subtitle is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                            officia
-                            deserunt
-                            mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
-                    </div>
-                </li>
-                <li class="itemsli left-pos is-2 carouselli" id="7">
-                    <div class="card client p-3 m-5 is-shadow">
-                        <div class="header is-flex is-justify-content-space-evenly mt-5">
-                            <figure class="image is-64x64">
-                                <img class="is-rounded"
-                                    src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c1.png"
-                                    width="70" height="70" alt="">
-                            </figure>
-                            <div class="is-right">
-                                <p class="has-text-gray">hamza stam</p>
-                                <p class="has-text-grey-light">damascus,syria</p>
-                                <p>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                    <i class="fa fa-star has-text-warning"></i>
-                                </p>
-                            </div>
-                        </div>
-                        <p class="subtitle mt-2 is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                            qui officia
-                            deserunt
-                            mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
-                    </div>
-                </li>
-            </ul>
-        </div>
 
 
 
+            <div class="swiper  mx-auto is-centered my-6">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper ">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="card client p-5 m-5 is-shadow">
+                            <div class="header is-flex is-justify-content-space-evenly mt-5">
+                                <figure class="image is-64x64">
+                                    <img class="is-rounded"
+                                        src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c3.png"
+                                        width="70" height="70" alt="">
+                                </figure>
+                                <div class="is-right">
+                                    <p class="has-text-gray">Irma Walters</p>
+                                    <p class="has-text-grey-light">london,uk</p>
+                                    <p>
+                                        <i class="fa fa-star has-text-warning"></i>
+                                        <i class="fa fa-star has-text-warning"></i>
+                                        <i class="fa fa-star has-text-warning"></i>
+                                        <i class="fa fa-star has-text-warning"></i>
+                                        <i class="fa fa-star has-text-warning"></i>
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="subtitle is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                officia
+                                deserunt
+                                mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card client p-3 m-5 is-shadow">
+                            <div class="header is-flex is-justify-content-space-evenly mt-5">
+                                <figure class="image is-64x64">
+                                    <img class="is-rounded"
+                                        src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c4.png"
+                                        width="70" height="70" alt="">
+                                </figure>
+                                <div class="is-right">
+                                    <p class="has-text-gray">tom leash</p>
+                                    <p class="has-text-grey-light">madrid.espain</p>
+                                    <p>
+                                        <i class="fa fa-star has-text-warning"></i>
+                                        <i class="fa fa-star has-text-warning"></i>
+                                        <i class="fa fa-star has-text-warning"></i>
+                                        <i class="fa fa-star has-text-warning"></i>
+                                        <i class="fa fa-star has-text-warning"></i>
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="subtitle is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                officia
+                                deserunt
+                                mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card client p-3 m-5 is-shadow">
+                            <div class="header is-flex is-justify-content-space-evenly mt-5">
+                                <figure class="image is-64x64">
+                                    <img class="is-rounded"
+                                        src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c3.png"
+                                        width="70" height="70" alt="">
+                                </figure>
+                                <div class="is-right">
+                                    <p class="has-text-gray">john load</p>
+                                    <p class="has-text-grey-light">damascus,syria</p>
+                                    <p>
+                                        <i class="fa fa-star has-text-warning"></i>
+                                        <i class="fa fa-star has-text-warning"></i>
+                                        <i class="fa fa-star has-text-warning"></i>
+                                        <i class="fa fa-star has-text-warning"></i>
+                                        <i class="fa fa-star has-text-warning"></i>
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="subtitle mt-2 is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                                qui officia
+                                deserunt
+                                mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card client p-3 m-5 is-shadow">
+                            <div class="header is-flex is-justify-content-space-evenly mt-5">
+                                <figure class="image is-64x64">
+                                    <img class="is-rounded"
+                                        src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c1.png"
+                                        width="70" height="70" alt="">
+                                </figure>
+                                <div class="is-right">
+                                    <p class="has-text-gray">hamza stam</p>
+                                    <p class="has-text-grey-light">damascus,syria</p>
+                                    <p>
+                                        <i class="fa fa-star has-text-warning"></i>
+                                        <i class="fa fa-star has-text-warning"></i>
+                                        <i class="fa fa-star has-text-warning"></i>
+                                        <i class="fa fa-star has-text-warning"></i>
+                                        <i class="fa fa-star has-text-warning"></i>
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="subtitle mt-2 is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                                qui officia
+                                deserunt
+                                mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card client p-5 m-5 is-shadow">
+                            <div class="header is-flex is-justify-content-space-evenly mt-5">
+                                <figure class="image is-64x64">
+                                    <img class="is-rounded"
+                                        src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c3.png"
+                                        width="70" height="70" alt="">
+                                </figure>
+                                <div class="is-right">
+                                    <p class="has-text-gray">Irma Walters</p>
+                                    <p class="has-text-grey-light">london,uk</p>
+                                    <p>
+                                        <i class="fa fa-star has-text-warning"></i>
+                                        <i class="fa fa-star has-text-warning"></i>
+                                        <i class="fa fa-star has-text-warning"></i>
+                                        <i class="fa fa-star has-text-warning"></i>
+                                        <i class="fa fa-star has-text-warning"></i>
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="subtitle is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                officia
+                                deserunt
+                                mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card client p-3 m-5 is-shadow">
+                            <div class="header is-flex is-justify-content-space-evenly mt-5">
+                                <figure class="image is-64x64">
+                                    <img class="is-rounded"
+                                        src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c4.png"
+                                        width="70" height="70" alt="">
+                                </figure>
+                                <div class="is-right">
+                                    <p class="has-text-gray">tom leash</p>
+                                    <p class="has-text-grey-light">madrid.espain</p>
+                                    <p>
+                                        <i class="fa fa-star has-text-warning"></i>
+                                        <i class="fa fa-star has-text-warning"></i>
+                                        <i class="fa fa-star has-text-warning"></i>
+                                        <i class="fa fa-star has-text-warning"></i>
+                                        <i class="fa fa-star has-text-warning"></i>
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="subtitle is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                officia
+                                deserunt
+                                mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card client p-3 m-5 is-shadow">
+                            <div class="header is-flex is-justify-content-space-evenly mt-5">
+                                <figure class="image is-64x64">
+                                    <img class="is-rounded"
+                                        src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/c1.png"
+                                        width="70" height="70" alt="">
+                                </figure>
+                                <div class="is-right">
+                                    <p class="has-text-gray">hamza stam</p>
+                                    <p class="has-text-grey-light">damascus,syria</p>
+                                    <p>
+                                        <i class="fa fa-star has-text-warning"></i>
+                                        <i class="fa fa-star has-text-warning"></i>
+                                        <i class="fa fa-star has-text-warning"></i>
+                                        <i class="fa fa-star has-text-warning"></i>
+                                        <i class="fa fa-star has-text-warning"></i>
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="subtitle mt-2 is-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                                qui officia
+                                deserunt
+                                mollit anim id est laborum. Sed ut perspiciatis eaque.</p>
+                        </div>
+                    </div>
+                    ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination my-auto "></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
         </div>
     </section>
     <section id="blog" class="blog my-7 has-text-centered">
@@ -749,7 +624,7 @@
         <div class="container mt-6 is-centered">
             <div class="columns mx-auto">
                 <div class="column ">
-                    <div class="card p-3 pb-2 m-5 is-shadow">
+                    <div data-aos="fade-left" data-aos-duration="2000" class="card p-3 pb-2 m-5 is-shadow">
                         <figure><img
                                 src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/b1.jpg"
                                 alt="" class="header-img image"></figure>
@@ -766,7 +641,7 @@
                 </div>
 
                 <div class="column">
-                    <div class="card p-3 pb-2 m-5 is-shadow">
+                    <div data-aos="zoom-in" data-aos-duration="2000" class="card p-3 pb-2 m-5 is-shadow">
                         <figure><img
                                 src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/b2.jpg"
                                 alt="" class="header-img"></figure>
@@ -783,7 +658,7 @@
                     </div>
                 </div>
                 <div class="column">
-                    <div class="card p-3 pb-2 m-5 is-shadow">
+                    <div data-aos="fade-right" data-aos-duration="2000" class="card p-3 pb-2 m-5 is-shadow">
                         <figure><img
                                 src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/b3.jpg"
                                 alt="" class="header-img"></figure>
@@ -876,6 +751,11 @@
         <i class="fa fa-angle-up" id="scroll-top" data-toggle="tooltip" data-placement="top"
             data-original-title="Back to Top" aria-hidden="true"></i>
     </a>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <script src="main.js">
