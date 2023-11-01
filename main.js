@@ -1,3 +1,74 @@
+
+let form = document.querySelector(".form");
+let emailInput = document.querySelector(".input-clear");
+let submit = document.querySelector(".button");
+form.addEventListener("submit", e => {
+    e.preventDefault();
+    let emailValue = emailInput.value
+    emailInput.value = "";
+}
+)
+
+
+let formHero = document.querySelector(".formw");
+let whatsInput = document.querySelector(".whats");
+let locationInput = document.querySelector(".location");
+
+let submitW = document.querySelector(".btn-search");
+form.addEventListener("submitW", w => {
+    w.preventDefault();
+    let whatsInput = whatsInput.value
+    whatsInput.value = "";
+    let locationInput = locationInput.value
+    locationInput.value = "";
+}
+)
+
+
+
+
+// let formHeroL = document.querySelector("formw");
+// let locationInput = document.querySelector(".location");
+// let submitL = document.querySelector(".btn-search");
+// form.addEventListener("submitL", l => {
+//     l.preventDefault();
+//     let locationInput = locationInput.value
+//     locationInput.value = "";
+// }
+// )
+
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+
+    // Get all "navbar-burger" elements
+    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+    // Add a click event on each of them
+    $navbarBurgers.forEach(el => {
+        el.addEventListener('click', () => {
+
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+
+        });
+    });
+
+});
+
+
+
+
+
+
+
+
 //slideshow style interval
 var autoSwap = setInterval(swap, 3500);
 
@@ -106,42 +177,3 @@ $('.itemsli').click(function () {
     }
 });
 
-
-
-
-
-
-
-
-let form = document.querySelector(".form");
-let emailInput = document.querySelector(".input-clear");
-let submit = document.querySelector(".button");
-form.addEventListener("submit", e => {
-    e.preventDefault();
-    let emailValue = emailInput.value
-    emailInput.value = "";
-}
-)
-
-
-document.addEventListener('DOMContentLoaded', () => {
-
-    // Get all "navbar-burger" elements
-    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-
-    // Add a click event on each of them
-    $navbarBurgers.forEach(el => {
-        el.addEventListener('click', () => {
-
-            // Get the target from the "data-target" attribute
-            const target = el.dataset.target;
-            const $target = document.getElementById(target);
-
-            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-            el.classList.toggle('is-active');
-            $target.classList.toggle('is-active');
-
-        });
-    });
-
-});
