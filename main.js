@@ -27,19 +27,6 @@ form.addEventListener("submitW", w => {
 
 
 
-// let formHeroL = document.querySelector("formw");
-// let locationInput = document.querySelector(".location");
-// let submitL = document.querySelector(".btn-search");
-// form.addEventListener("submitL", l => {
-//     l.preventDefault();
-//     let locationInput = locationInput.value
-//     locationInput.value = "";
-// }
-// )
-
-
-
-
 document.addEventListener('DOMContentLoaded', () => {
 
     // Get all "navbar-burger" elements
@@ -61,22 +48,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
