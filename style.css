@@ -46,7 +46,7 @@ html {
 
 .bgimage {
     background-color: black;
-    background-image: url(https://www.free-css.com/assets/files/free-css-templates/preview/page296/listrace/assets/images/banner.jpg) !important;
+    background-image: url("banner.jpg") !important;
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.6;
@@ -68,10 +68,24 @@ h1.title {
     transform: translateY(50%);
 }
 
+#how-work .card,
+.cards .card {
+    transition: .8s;
+
+}
+
 #how-work .card:hover,
 .cards .card:hover {
     background-color: hsl(348, 86%, 43%) !important;
     transition: .8s;
+}
+
+#how-work .card .title,
+#how-work .card .subtitle,
+.cards .card .title,
+.cards .card .subtitle {
+    transition: .8s;
+
 }
 
 #how-work .card:hover .title,
@@ -86,9 +100,19 @@ h1.title {
     border-radius: 50%;
 }
 
+#how-work .container .card .icon-how-work {
+    transition: .8s;
+
+}
+
 #how-work .container .card:hover .icon-how-work {
     background-color: #fff !important;
     transition: .8s;
+}
+
+#how-work .container .card .icon-how-work p {
+    transition: .8s;
+
 }
 
 #how-work .container .card:hover .icon-how-work p {
@@ -108,8 +132,8 @@ h1.title {
 
 
 .swiper {
-    /* width: 800px; */
-    height: 300px;
+    width: 500px;
+    height: 250px;
 }
 
 .swiper-slide {
@@ -121,10 +145,26 @@ h1.title {
     --swiper-theme-color: #f14668;
 }
 
-.card:hover {
-    box-shadow: 0 .5em 1em 6px gray, 0 0 0 1px rgba(10, 10, 10, .02) !important;
-    transition: all 0.5s;
+.container .columns .column .card {
+    transition: 0.8s;
+
 }
+
+.container .columns .column .card:hover {
+    box-shadow: 0 .5em 1em 6px gray, 0 0 0 1px rgba(10, 10, 10, .02) !important;
+    transition: all 0.8s;
+}
+
+.container .swiper .swiper-wrapper .swiper-slide .card {
+    transition: 0.8s;
+
+}
+
+.container .swiper .swiper-wrapper .swiper-slide .card:hover {
+    box-shadow: 0 .5em 1em 6px gray, 0 0 0 1px rgba(10, 10, 10, .02) !important;
+    transition: all 0.8s;
+}
+
 
 .return-to-top {
     position: fixed;
@@ -151,6 +191,12 @@ h1.title {
 .return-to-top i {
     position: relative;
     animation: example 1s infinite alternate;
+}
+
+
+.level-right ul li {
+    display: inline-block;
+    margin-left: 5px;
 }
 
 @keyframes example {
