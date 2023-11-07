@@ -148,7 +148,7 @@ h1.title {
 
 
 .swiper {
-    width: 500px;
+    width: 25em;
     height: 250px;
 }
 
@@ -158,7 +158,7 @@ h1.title {
 }
 
 .swiper-button-prev {
-    margin-right: 2rem;
+    margin-right: 20px !important;
 }
 
 :root {
