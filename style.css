@@ -27,22 +27,32 @@ html {
     background-color: hsl(348, 86%, 43%) !important;
 }
 
+button,
+form,
+.has-background-white {
+    border-radius: 6px;
+}
+
 /* .navbar-start,
 .navbar-end {
     display: inline-block;
 } */
 
-.navbar-item {
+/* .navbar-item {
     position: relative;
     top: 5px;
     z-index: 9999999;
-}
+} */
 
-.sticky {
+/* #navMenu {
+    margin-top: -3em !important;
+} */
+
+/* .sticky {
     position: sticky;
     top: 0;
     z-index: 99999;
-}
+} */
 
 .bgimage {
     background-color: black;
@@ -60,12 +70,18 @@ h1.title {
     line-height: 67px;
 }
 
+.location,
+.whats {
+    outline: none;
+    border: none;
+}
+
 .hero .hero-body .container .subtitle {
     opacity: 1 !important;
 }
 
 .cards {
-    transform: translateY(50%);
+    transform: translateY(70%);
 }
 
 #how-work .card,
@@ -141,6 +157,10 @@ h1.title {
     transition: .5s linear;
 }
 
+.swiper-button-prev {
+    margin-right: 2rem;
+}
+
 :root {
     --swiper-theme-color: #f14668;
 }
@@ -165,6 +185,9 @@ h1.title {
     transition: all 0.8s;
 }
 
+.blog .container .columns .column .card:hover .title {
+    color: rgb(218, 24, 24) !important;
+}
 
 .return-to-top {
     position: fixed;
