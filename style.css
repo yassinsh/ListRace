@@ -55,11 +55,11 @@ form,
 } */
 
 .bgimage {
-    background-color: black;
-    background-image: url("banner.jpg") !important;
+    background-color: rgb(202, 199, 199);
+    background-image: url("banner1.jpg") !important;
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 
@@ -220,6 +220,10 @@ h1.title {
 .level-right ul li {
     display: inline-block;
     margin-left: 5px;
+}
+
+.nav-bottom {
+    display: block;
 }
 
 @keyframes example {
