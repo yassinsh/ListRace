@@ -33,30 +33,9 @@ form,
     border-radius: 6px;
 }
 
-/* .navbar-start,
-.navbar-end {
-    display: inline-block;
-} */
-
-/* .navbar-item {
-    position: relative;
-    top: 5px;
-    z-index: 9999999;
-} */
-
-/* #navMenu {
-    margin-top: -3em !important;
-} */
-
-/* .sticky {
-    position: sticky;
-    top: 0;
-    z-index: 99999;
-} */
-
 .bgimage {
     background-color: rgb(202, 199, 199);
-    background-image: url("banner1.jpg") !important;
+    background-image: url("skyline_00000.png") !important;
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.7;
@@ -157,9 +136,9 @@ h1.title {
     transition: .5s linear;
 }
 
-.swiper-button-prev {
+/* .swiper-button-prev {
     margin-right: 20px !important;
-}
+} */
 
 :root {
     --swiper-theme-color: #f14668;
